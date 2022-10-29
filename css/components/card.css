@@ -1,0 +1,35 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 140px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid gray;
+  box-shadow: 0 0 5px gray;
+}
+
+@media(max-width: 900px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .cards {
+    justify-content: space-around;
+  }
+}
